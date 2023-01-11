@@ -1,0 +1,41 @@
+.productImage{
+    display: grid;
+    grid-template-columns: 160px 160px;
+}
+.productSection{
+    display: flex;
+    position: relative;
+}
+
+.productInnerSection{
+    margin: 0 1rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.discountSection{
+    color: red;
+}
+
+.closeBtnSection{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+   
+}
+
+.sizeSection{
+    margin: 1rem 0;
+}
+
+.size{
+    border:1px solid;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.size:hover {
+    color: white;
+    background-color: red;
+}
+
